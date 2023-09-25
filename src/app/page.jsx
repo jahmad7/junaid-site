@@ -260,32 +260,35 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Software engineer, founder, and community builder.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I’m Junaid, a Software Engineer with over 6 years of leadership
+            experience, specializing in developing production software that
+            generates 10MM+ in revenue. Proven ability to lead multidisciplinary
+            teams to streamline product delivery cycles, resulting in
+            significant increases in company revenue. Looking for my next
+            challenging role to leverage technical expertise and leadership
+            skills.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://x.com/junaid_builds"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
+              href="https://instagram.com/junaid_builds"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
             />
             <SocialLink
-              href="https://github.com"
+              href="https://github.com/jahmad7"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/junaidaahmad/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
