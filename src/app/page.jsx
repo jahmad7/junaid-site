@@ -174,10 +174,10 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
+      company: 'Dr.Doc AI',
+      title: 'Founder',
       logo: logoPlanetaria,
-      start: '2019',
+      start: '2023',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
