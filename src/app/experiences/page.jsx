@@ -194,8 +194,8 @@ export default function Experiences() {
               </li>
               <li className="mt-2">
                 Reduced sales-cycle time by 60 percent through development of
-                'RoboBuilder', a website wizard to configure and get quotes on
-                manufacturing equipment.
+                &apos;RoboBuilder&apos;, a website wizard to configure and get
+                quotes on manufacturing equipment.
               </li>
               <li className="mt-2">
                 Transitioned company to Industry 4.0 standards with serverless
