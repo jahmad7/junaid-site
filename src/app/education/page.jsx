@@ -38,7 +38,7 @@ export default function Education() {
       <div className="space-y-20">
         <SpeakingSection title="Lighthouse Labs">
           <Appearance
-            href="#"
+            href="https://www.lighthouselabs.ca/"
             title="Applying School to the workplace"
             description="Mastered modern frameworks, notably React, and sharpened skills in application development emphasizing UX/UI
             best practices.
@@ -50,7 +50,7 @@ export default function Education() {
         </SpeakingSection>
         <SpeakingSection title="Western University">
           <Appearance
-            href="#"
+            href="https://uwo.ca/"
             title="Kinematics + Computer Science"
             description="Studies focused around human movement, and computer science.
             Trained to analyze biomechanics properties of both static and dynamic subjects, with vast understanding of human body functions, and ability to integrate live functions into computer algorithms and programs.
