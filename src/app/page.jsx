@@ -11,10 +11,11 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import logoLighthouseLabs from '@/images/logos/lighthouselabs.jpg'
+import logoAtg from '@/images/logos/atgpharma.png'
+import logoDrDocAI from '@/images/logos/drdocai.svg'
+import logoApple from '@/images/logos/apple.svg'
+import logoJRO from '@/images/logos/jro.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -176,7 +177,7 @@ function Resume() {
     {
       company: 'Dr.Doc AI',
       title: 'Founder',
-      logo: logoPlanetaria,
+      logo: logoDrDocAI,
       start: '2023',
       end: {
         label: 'Present',
@@ -184,25 +185,32 @@ function Resume() {
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
+      company: 'ATG Pharma Inc',
+      title: 'Lead Software Engineer',
+      logo: logoAtg,
+      start: '2020',
+      end: '2023',
+    },
+    {
+      company: 'Jackrabbit Ops',
+      title: 'Founding Engineer',
+      logo: logoJRO,
+      start: '2022',
+      end: '2023',
+    },
+    {
+      company: 'Lighthouse Labs',
+      title: 'Mentor',
+      logo: logoLighthouseLabs,
+      start: '2020',
+      end: '2022',
+    },
+    {
+      company: 'Apple Inc',
+      title: 'Genius Admin',
+      logo: logoApple,
+      start: '2018',
       end: '2019',
-    },
-    {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
-    },
-    {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
     },
   ]
 
