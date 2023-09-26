@@ -63,45 +63,72 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
             <p>
-              I’ve loved making things for as long as I can remember, and wrote
-              my first program when I was 6 years old, just two weeks after my
-              mom brought home the brand new Macintosh LC 550 that I taught
-              myself to type on.
+              From as long as I can remember, I have always had a knack for
+              seeing beyond the surface—hacking, in its true essence, means to
+              identify and exploit weaknesses, and thats what I did. At the age
+              of 9, when iTunes was the rave and my friends were lost in a world
+              of music, my pocket-friendly solution was to record tunes from
+              YouTube videos, saving them on my second-hand Sony Zune. While
+              they had iTunes, I had initiative.
             </p>
             <p>
-              The only thing I loved more than computers as a kid was space.
-              When I was 8, I climbed the 40-foot oak tree at the back of our
-              yard while wearing my older sister’s motorcycle helmet, counted
-              down from three, and jumped — hoping the tree was tall enough that
-              with just a bit of momentum I’d be able to get to orbit.
+              This proclivity for navigating the digital landscape only
+              intensified. I delved into online games, scoured for movie
+              sources, and even found ingenious ways to procure free coupons.
+              Soon, coding became an indispensable tool. Every so often, a
+              poorly constructed paywall would block my path, urging me to
+              enhance my coding skills and push boundaries.
             </p>
             <p>
-              I spent the next few summers indoors working on a rocket design,
-              while I recovered from the multiple surgeries it took to fix my
-              badly broken legs. It took nine iterations, but when I was 15 I
-              sent my dad’s Blackberry into orbit and was able to transmit a
-              photo back down to our family computer from space.
+              My transformative years in High School were under the guidance of
+              the remarkable Mr. Hsiung, my computer science teacher. The
+              knowledge he imparted over two short years gave wings to my
+              aspirations. I discovered that the true boundary to what I could
+              create with code was my own imagination. A testament to this is my
+              game, &quot;Mend it Mario,&quot; where players take on the role of
+              Mario, fixing the chaos left in Ralphs wake. Sharing it with
+              friends, I relished the joy of creating products that resonate and
+              bring smiles.
             </p>
             <p>
-              Today, I’m the founder of Planetaria, where we’re working on
-              civilian space suits and manned shuttle kits you can assemble at
-              home so that the next generation of kids really <em>can</em> make
-              it to orbit — from the comfort of their own backyards.
+              Today, as the proud founder of Dr.Doc AI, Im channeling my passion
+              and experience into new directions. My mission? To empower doctors
+              by streamlining their administrative burdens, letting them focus
+              on patient care. Not only is Dr.Doc AI leaps and bounds ahead of
+              its competitors in efficiency, but its also a fraction of the
+              cost. At its core, my enduring goal remains unchanged: leveraging
+              software to enhance accessibility and, in doing so, add a touch
+              more happiness to the world.
             </p>
           </div>
         </div>
         <div className="lg:pl-20">
           <ul role="list">
-            <SocialLink href="x.com/junaid_builds" icon={TwitterIcon}>
+            <SocialLink
+              href="https://twitter.com/junaid_builds"
+              icon={TwitterIcon}
+            >
               Follow on Twitter
             </SocialLink>
-            <SocialLink href="#" icon={InstagramIcon} className="mt-4">
+            <SocialLink
+              href="https://www.instagram.com/junaid_builds/"
+              icon={InstagramIcon}
+              className="mt-4"
+            >
               Follow on Instagram
             </SocialLink>
-            <SocialLink href="#" icon={GitHubIcon} className="mt-4">
+            <SocialLink
+              href="https://github.com/jahmad7"
+              icon={GitHubIcon}
+              className="mt-4"
+            >
               Follow on GitHub
             </SocialLink>
-            <SocialLink href="#" icon={LinkedInIcon} className="mt-4">
+            <SocialLink
+              href="https://www.linkedin.com/in/junaidaahmad/"
+              icon={LinkedInIcon}
+              className="mt-4"
+            >
               Follow on LinkedIn
             </SocialLink>
             <SocialLink
