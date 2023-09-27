@@ -1,0 +1,34 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import bootcampGroup from './captone-group.jpg'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2023-09-12',
+  title: 'From Degree to Bootcamp: A Leap into the Tech World',
+  description:
+    'Charting the unconventional route from kinesiology to the whirlwind realm of coding bootcamps.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+Many first-generation immigrants might resonate with the subtle, yet palpable familial pressures of pursuing traditional professions. Coming from Pakistani lineage, the murmurs of medical aspirations echoed throughout my upbringing. Despite doing remarkably well in biology during high school, the road to medical school through kinesiology proved a misguided detour.
+
+<Image src={bootcampGroup} alt="Bootcamp Capstone Group" />
+
+Universities were meant to be a launchpad to careers, especially for families with humble beginnings. Yet, while the medical courses left me grappling, computer science surprisingly became my sanctuary. Graduating with a blend of dismay and newfound passion, I consulted old high school friends, successful in the tech world, for advice. Their consensus? Skip another lengthy degree and head straight to a bootcamp.
+
+Lighthouse Labs in Toronto became my chosen arena. Circa 2019, when in-person interactions reigned supreme, the 10-week program was both challenging and enthralling. Days began at dawn with workouts, followed by hours immersed in coding, often stretching past midnight.
+
+Initially, we delved into foundational topics like data structures. But by week three, we were introduced to jQuery, culminating in group projects. My group, unfortunately, included an over-achiever, 'Ryan', whose premature exits often left the team grappling with his void. However, our project, a roommate polling app for meal choices, saw the light of day.
+
+The subsequent weeks introduced frameworks like React and Ruby on Rails. Adapting was tough, given their absence from my university electives. An interesting part of our journey was the at-home stint, which prompted me to invest in a second monitor, replicating the bootcamp setup.
+
+The grand finale, the capstone project, brought together Joanne, Alex, and me. Our initial augmented reality ad platform idea was scrapped for a real-time dating trivia game, 'Dealbreaker.' Drawing parallels to medical residency match-making, the game matched participants based on trivia responses. Although the project involved grueling nights, the reception at demo day was worth every droplet of sweat. Our endeavor even bagged first place!
+
+While the idea of further developing 'Dealbreaker' lingered, life had other plans. Soon after, I kickstarted my tech journey with ATG Pharma. The whirlwinds of this fresh start, though, is a tale for another time.
