@@ -1,0 +1,34 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import workingPhoto from './image-3.jpg'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2023-09-27',
+  title: 'The Rise and Fall of Jackrabbit Ops: Lessons from a Startup Journey',
+  description:
+    'Reflecting on a year-long venture, its challenges, and the invaluable lessons learned.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Image src={workingPhoto} alt="Ahmad and I working on Jackrabbit Ops" />
+
+Jackrabbit Ops stands as one of the most enlightening chapters of my entrepreneurial journey. Teaming up with Ahmed, we envisioned revolutionizing the corporate landscape through AI-driven process documentation. Inspired by Chris F's endeavors at ATG Pharma, the value of automating business through documentation became evident. However, transforming this realization into a tangible product presented unforeseen challenges.
+
+While the potential was immense, a series of missteps led to the project's discontinuation within a year. Here’s a breakdown of the lessons learned:
+
+1. **Over-niching:** Early into our journey, the product's vast applicability felt overwhelming. Echoing the common adage, "riches are in the niches", we focused solely on sales departments. However, this pivot was more reactive than informed, stemming from external pressures rather than genuine customer needs.
+
+2. **Divided Attention:** Managing dual commitments, between Jackrabbit Ops and our ATG Pharma engagements, left us overextended. The wisdom from Fraza of Buildspace became clear - achieving one miracle is tough; pulling off two feels insurmountable.
+
+3. **Customer-Centricity:** Perhaps the most significant lesson was the importance of centering the product around paying customers. While it's tempting to cater to the loudest voices or chase trending demands, it's the paying customers that truly guide a product's direction. Our pivot, influenced more by hype than actual feedback, failed to resonate.
+
+In retrospect, Jackrabbit Ops was a goldmine of lessons, teaching me the intricacies of startup dynamics, the importance of staying grounded, and the value of consistent customer engagement.
+
+As one chapter closes, another beckons. With these insights in tow, I venture forth, ready to make an impactful mark on the world.
