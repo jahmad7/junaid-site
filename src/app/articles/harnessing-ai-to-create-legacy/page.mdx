@@ -1,0 +1,40 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import aiFamily from './ai-family.png'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2023-09-27',
+  title: 'Harnessing AI to Create Legacy: A Conversation with Lawrence Lewis',
+  description:
+    'Exploring the intersection of technology, legacy, and the profound impact of capturing human essence with AI.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+In my pursuit of a more meaningful impact in my career, I found myself in a profound discussion with Lawrence Lewis. As our conversation meandered, it landed on the topic of legacy and the transformative role AI can play in ensuring ours resonates through time.
+
+<Image src={aiFamily} alt="AI Conceptualized Family" />
+
+Lawrence shared an endearing conversation with his son about a hypothetical AI, replicating Lawrence's persona to answer queries just like him. While the idea seemed far-fetched to his son initially, it made me wonder: In our race against time, could AI be the medium that immortalizes our thoughts, feelings, and experiences?
+
+Reflecting on this, I recalled "No Story Lost", a company dedicated to capturing the tales and anecdotes of our elders, binding them into tangible books. But in an era of rapid technological evolution, could we do more?
+
+Imagine a comprehensive AI repository, built from one's digital footprints, capable of emulating one's essence. A conversational AI that not just captures your words but your essence, your inflections, your thought process. Over time, it learns and evolves, just like we do.
+
+The mechanics, as I envision, would be fairly straightforward:
+
+1. Someone sends a text query to your AI.
+2. The AI scours its vector database (a compilation of your digital interactions) to formulate a response.
+3. If the AI is 95% (or any preset threshold) confident about the accuracy of its response, it replies. If not, it prompts you for an answer, which subsequently enriches the vector database.
+
+Such a system, iterated over a lifetime, could encapsulate the very core of an individual, ensuring that their wisdom, their humor, their counsel remains accessible for generations.
+
+The ramifications are vast. Today, we remember our ancestors through stories, photographs, and artifacts. Tomorrow, could we be conversing with their digital avatars, seeking advice, sharing our joys and sorrows?
+
+Would you embrace this vision of the future? Would an AI version of your loved ones appeal to you? The possibilities are tantalizing, and maybe, just maybe, it's an endeavor worth pursuing.
