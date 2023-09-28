@@ -1,0 +1,34 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import aiComparison from './network-image.png'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2023-09-28',
+  title: 'Demystifying AI: From Basics to Deep Learning',
+  description:
+    'An exploration into the transformative world of AI, its nuances, and the incredible potential it holds.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Image src={aiComparison} alt="Deep Learning Networks vs Neural Networks" />
+
+From dabbling in the creation of Jackrabbit Ops to closely monitoring the AI landscape, my journey into the world of artificial intelligence has been exhilarating. Here's a look at the intricate world of AI, breaking down the complexities, and marveling at its potential.
+
+To begin with, I view AI as a broad realm aiming to replicate human capabilities like decision-making, visual discernment, language comprehension, and learning. Diving deeper, we find Machine Learning, which revolves around designing algorithms that can learn from data to achieve certain outcomes. No hardcoding, just data-driven results.
+
+But what's making waves nowadays is a subset of ML - Deep Learning. It hinges on neural networks, designed to mimic our brain's neurons, to analyze and generate outcomes. NLP (Natural Language Processing), especially, leverages deep learning to fathom and produce human-like text.
+
+Take GPT (Generative Pre-trained Transformer), for instance. This deep learning model adopts a 'transformer architecture', enabling it to understand and churn out text. 'Generative' alludes to its ability to craft new content, 'Pre-trained' indicates its training on vast text data, and 'Transformer' points to its deep neural framework.
+
+Now, many are puzzled by the 'pre-trained' data concept. Here's an analogy: Imagine GPT as a colossal Lego tower. Each Lego layer represents a layer of understanding, and workers inside the tower symbolize parameters or context absorbers. A taller tower (more layers) comprehends broader contexts, while more workers (parameters) ensure meticulous detail absorption.
+
+But, is it as simple as adding more layers and parameters for a smarter AI? Not quite. OpenAI hints at achieving AGI (Artificial General Intelligence) but emphasizes its limitations. Achieving human-like reasoning or 'common sense' goes beyond just processing data. Plus, the ethical ramifications of an ultra-smart, autonomous AI are still under debate.
+
+AI's potential is massive. GPT is just a glimpse. Models like Latent Diffusion (often employed in image generation) show that the AI horizon is vast. As industries increasingly integrate AI, I’m optimistic about the boundless innovations to come. The future might be unpredictable, but it's guaranteed to be extraordinary.
