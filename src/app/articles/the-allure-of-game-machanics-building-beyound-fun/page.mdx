@@ -1,0 +1,33 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import explodingKittens from './exploding-kittens.jpeg'
+
+export const article = {
+  author: 'Anonymous',
+  date: '2023-10-02',
+  title: 'The Allure of Game Mechanics: Building Beyond Fun',
+  description:
+    'Exploring the captivating world of games and their application in real-world products for meaningful growth.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Image
+  src={explodingKittens}
+  alt="Friends playing Exploding Kittens on a ferry"
+/>
+
+The world of video games always intrigued me. Sure, I loved playing them, but it was their underlying mechanics that captivated my attention. What is it about games that hooks us in? Is it the allure of mastery, the social interactions, or the sheer thrill and dopamine rush?
+
+While on a ferry ride from Whistler to Vancouver Island, I found myself engrossed in a game of 'Exploding Kittens' with friends. Beyond the fun and laughter, I started reflecting on how the elements of such engaging physical games could be translated into the digital realm. After all, isn’t effective product development similar to crafting a game people can’t get enough of?
+
+When I reminisce about the products I’ve built, the ones that truly resonate with me had game-like elements. Take 'Dealbreaker!' for instance – a real game we built post-bootcamp. It’s a unique blend of trivia and personality analysis. The game engine deciphers who you are, maps out your personality, and utilizes the Gale–Shapley algorithm to find a compatible match based on trivia answers. Building it was an absolute joy.
+
+Now, I'm toying with the idea of designing a new kind of game – one that gamifies human health and internal understanding, focusing on our MEPS (Mental, Emotional, Physical, and Spiritual self). In our quest for growth, we often look outward, measuring success by promotions or bank balances. What if we could track our internal evolution and growth? How empowering would that be?
+
+This is the future I envision: creating a tool that gamifies and visualizes our internal journey. I'm excited about this new venture and would love to hear your thoughts. Ready to play?
