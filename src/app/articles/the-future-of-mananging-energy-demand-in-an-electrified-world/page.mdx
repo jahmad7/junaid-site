@@ -1,0 +1,34 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import energyDuckCurve from './energy-duck-curve.png'
+
+export const article = {
+  author: 'Anonymous',
+  date: '2023-10-04',
+  title:
+    'WATTSON: The Future of Managing Energy Demand in an Electrified World',
+  description:
+    'Unraveling the intricate challenges of the energy sector and understanding how innovations like WATTSON can transform our power consumption practices.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+<Image
+  src={energyDuckCurve}
+  alt="Energy Duck Curve demonstrating supply and demand"
+/>
+
+Encountering Ben Hilborn at ScaleYYJ opened my eyes to the pressing challenges facing the energy sector. Initially, his passion for Distributed Energy Resource (DER) management seemed intriguing yet complex. However, as my pursuit for impactful work deepened, this subject resurfaced with a newfound clarity.
+
+Our recent conversation revolved around the foundational dilemma of power grids: the intricate balance between supply and demand. As the world transitions to electrification, demand surges while maintaining adequate supply becomes arduous due to the time and resources required for increasing power output. The introduction of solar Distributed Resources further complicates matters. Homes utilizing solar reduce their grid dependency during sunlit hours, but peak demand outside these hours strains the grid, leading to significant fluctuations in energy demand.
+
+Grids desire stability, not erratic peaks and troughs. Although current solutions like binary DERs such as thermostats offer a semblance of control, they lack real-time responsiveness and efficiency. These DERs, when networked, essentially form a 'virtual power plant', helping regulate the grid's energy usage. Utility providers even incentivize users monetarily to offset demand. Yet, studies suggest monetary incentives alone might not consistently motivate consumers to reduce energy usage.
+
+Enter WATTSON - Ben's visionary idea. Instead of rudimentary binary toggles, WATTSON aspires to be a sophisticated real-time controller of a home's virtual powerhouse. By analyzing the inhabitants' behaviors and preferences, WATTSON aims to optimize energy costs without compromising comfort. However, taking WATTSON mainstream demands validation. Traditional utility providers lean towards proven systems. My suggestion to Ben was initiating pilot projects in new housing developments, providing a tangible proof-of-concept to woo larger utility providers.
+
+As I collaborate with Ben on the WATTSON prototype, I'm filled with optimism about the potential of this innovation to shape our energy future. We cannot let the past of gas-fueled vehicles dictate the future of our electric homes and cars. We require sustainable energy solutions that are both environmentally conscious and socio-economically viable.
