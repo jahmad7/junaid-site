@@ -16,6 +16,7 @@ import logoAtg from '@/images/logos/atgpharma.png'
 import logoDrDocAI from '@/images/logos/drdocai.svg'
 import logoApple from '@/images/logos/apple.svg'
 import logoJRO from '@/images/logos/jro.png'
+import logoVIATEC from '@/images/logos/viatec.svg'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -175,14 +176,21 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'Dr.Doc AI',
-      title: 'Founder',
-      logo: logoDrDocAI,
-      start: '2023',
+      company: 'VIATEC',
+      title: 'Special Projects',
+      logo: logoVIATEC,
+      start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: 'Dr.Doc AI',
+      title: 'Founder',
+      logo: logoDrDocAI,
+      start: '2023',
+      end: '2024',
     },
     {
       company: 'ATG Pharma Inc',

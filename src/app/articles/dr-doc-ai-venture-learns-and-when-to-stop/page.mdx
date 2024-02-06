@@ -1,0 +1,30 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+import Image from 'next/image'
+import DrDocAIImg from './drdocai.png'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2023-12-06',
+  title: 'The End of Chapter 6; Dr.Doc AI',
+  description:
+    'Reflecting on the lessons learned from Dr.Doc AI and looking forward to exploring new opportunities.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+In the realm of entrepreneurship, a common adage I've come across is that only one out of every twenty ideas you pursue will come to fruition. Now, embarking on my seventh idea, I can attest to the veracity of this statement. My first venture, ATG Pharma, which involved creating robotic sales software, was a success right out of the gate. This initial triumph led me to believe that all my subsequent ideas would be equally successful, embodying a simple "plug and play" approach. However, the reality of entrepreneurship is far more akin to conducting experiments. You test the market, and it sends signals back—some green for "go," and some red for "stop." The greatest lesson I've learned is the importance of reading these signals. Is what I'm working on being pulled by the market? Do customers genuinely want and demand it, or am I merely playing house?
+
+When I launched Dr.Doc AI, I started by seeking signals and then building accordingly. I asked my physician friends about the problems they needed solving and discovered that taking SOAP notes was a significant pain point for family physicians. So, I developed a solution: tell my AI about the appointment, and receive SOAP notes in 30 seconds or less. And it worked! My friends were willing to pay for this service, indicating a market pull. I was aiding family doctors in completing their work more efficiently and effortlessly.
+
+However, I soon encountered a formidable competitor—Dragon One, which boasted a much larger and more established market share and, unfortunately, a reputation for being patent trolls. Moreover, I learned that family doctors were more budget-conscious than I had anticipated, and a new SaaS product priced at $200 a month was not as well-received as hoped. My ability to expand beyond my initial circle of contacts was limited.
+
+Competing with Dragon One as an independent developer became increasingly unfeasible, and the market's openness to change was not as I had expected. Perhaps I will revisit this problem in the future, but for now, the market pull has diminished, and it's time to move on.
+
+As I close the chapter on Dr.Doc AI, the journey ahead is filled with both uncertainty and excitement. The search for my next venture—idea number seven—is underway. The path of entrepreneurship is fraught with challenges and setbacks, but it is also one of learning and growth. The experiences and lessons gleaned from Dr.Doc AI will undoubtedly inform and enrich my next endeavor. Here's to the next chapter and the adventures it holds.
+
+<Image src={DrDocAIImg} alt="dr doc ai" />
