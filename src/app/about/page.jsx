@@ -91,14 +91,18 @@ export default function About() {
               bring smiles.
             </p>
             <p>
-              Today, as the proud founder of Dr.Doc AI, Im channeling my passion
-              and experience into new directions. My mission? To empower doctors
-              by streamlining their administrative burdens, letting them focus
-              on patient care. Not only is Dr.Doc AI leaps and bounds ahead of
-              its competitors in efficiency, but its also a fraction of the
-              cost. At its core, my enduring goal remains unchanged: leveraging
-              software to enhance accessibility and, in doing so, add a touch
-              more happiness to the world.
+              Today, as an entrepreneur deeply immersed in the tech community,
+              Im redirecting my passion and expertise toward a new horizon. My
+              current endeavor? To support tech companies by alleviating their
+              operational challenges, enabling them to concentrate on innovation
+              and growth. While my focus has shifted from Dr.Doc AI, my
+              foundational mission remains steadfast: to harness the power of
+              software to enhance efficiency and accessibility. In this chapter,
+              Im working quietly in stealth mode, dedicated to uncovering a
+              solution to a pressing problem that eludes the spotlight. At the
+              heart of it all, my goal continues to be about making a positive
+              impact—helping as many people and organizations as possible to
+              thrive in the tech ecosystem.
             </p>
           </div>
         </div>
