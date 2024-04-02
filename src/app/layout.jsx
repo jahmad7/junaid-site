@@ -6,10 +6,10 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Junaid Ahmad',
-    default: 'Junaid Ahmad - Software Engineer, founder, and community builder',
+    default: 'Junaid Ahmad - Software, founder, and community builder',
   },
   description:
-    'I’m Junaid, a Software Engineer with over 6 years of leadership experience, specializing in developing production software that generates 10MM+ in revenue. Proven ability to lead multidisciplinary teams to streamline product delivery cycles, resulting in significant increases in company revenue. Looking for my next challenging role to leverage technical expertise and leadership skills.',
+    'I’m Junaid, a Software Engineer with over 7 years of leadership experience, specializing in developing production software that generates 10MM+ in revenue. Proven ability to lead multidisciplinary teams to streamline product delivery cycles, resulting in significant increases in company revenue. Looking for my next challenging role to leverage technical expertise and leadership skills.',
   alternates: {
     types: {
       'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
