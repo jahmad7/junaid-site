@@ -61,7 +61,7 @@ export default function Experiences() {
           </Tool>
         </ToolsSection>
         <ToolsSection
-          title="Lead Software Engineer"
+          title="Software Engineering Manager"
           description="July 2020 - Present"
           location="Toronto, ON"
         >

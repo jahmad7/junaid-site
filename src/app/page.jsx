@@ -194,7 +194,7 @@ function Resume() {
     },
     {
       company: 'ATG Pharma Inc',
-      title: 'Lead Software Engineer',
+      title: 'Software Engineering Manager',
       logo: logoAtg,
       start: '2020',
       end: '2023',
