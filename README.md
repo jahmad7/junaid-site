@@ -1,42 +1,57 @@
-# Spotlight
+# Junaid Ahmad's Personal Site
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+A modern, minimalist personal website built with Next.js that showcases my journey as a software engineer, founder, and community builder. The site serves as a dynamic portfolio of my work experience, from early software development roles to my current position driving growth at ShakePay.
 
-## Getting started
+## Getting Started
 
-To get started with this template, first install the npm dependencies:
+To run this site locally, follow these steps:
 
+1. Clone the repository:
+```bash
+git clone https://github.com/jahmad7/junaid-site.git
+cd junaid-site
+```
+
+2. Install dependencies:
 ```bash
 npm install
 ```
 
-Next, create a `.env.local` file in the root of your project and set the `NEXT_PUBLIC_SITE_URL` variable to your site's public URL:
-
+3. Create a `.env.local` file in the root directory and set your site URL:
 ```
-NEXT_PUBLIC_SITE_URL=https://example.com
+NEXT_PUBLIC_SITE_URL=http://localhost:3000
 ```
 
-Next, run the development server:
-
+4. Start the development server:
 ```bash
 npm run dev
 ```
 
-Finally, open [http://localhost:3000](http://localhost:3000) in your browser to view the website.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Customizing
+## Features
 
-You can start editing this template by modifying the files in the `/src` folder. The site will auto-update as you edit these files.
+- **Professional Experience**: Detailed timeline of my roles at companies like ShakePay, VIATEC, ATG Pharma, and more
+- **Blog Articles**: Personal insights into tech, entrepreneurship, and community building
+- **Project Showcase**: Highlighting key achievements and technical innovations
+- **Modern Design**: Clean, responsive interface with dark mode support
+- **Dynamic Content**: Regularly updated with new articles and experiences
 
-## License
+## Tech Stack
 
-This site template is a commercial product and is licensed under the [Tailwind UI license](https://tailwindui.com/license).
+- Next.js
+- React
+- Tailwind CSS
+- MDX for blog posts
+- Deployed on Vercel
 
-## Learn more
+## Recent Updates
 
-To learn more about the technologies used in this site template, see the following resources:
+The site reflects my current role as a Software Engineer at ShakePay, where I'm working on the Growth Squad to accelerate Bitcoin adoption in Canada. It also includes my thoughts on transitioning from non-profit tech organizations to high-growth fintech.
 
-- [Tailwind CSS](https://tailwindcss.com/docs) - the official Tailwind CSS documentation
-- [Next.js](https://nextjs.org/docs) - the official Next.js documentation
-- [Headless UI](https://headlessui.dev) - the official Headless UI documentation
-- [MDX](https://mdxjs.com) - the MDX documentation
+## Contact
+
+Feel free to reach out to me on:
+- Twitter: [@junaid_builds](https://x.com/junaid_builds)
+- LinkedIn: [junaidaahmad](https://www.linkedin.com/in/junaidaahmad/)
+- GitHub: [jahmad7](https://github.com/jahmad7)
