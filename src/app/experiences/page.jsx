@@ -36,6 +36,25 @@ export default function Experiences() {
     >
       <div className="space-y-20">
         <ToolsSection
+          title="Software Engineer"
+          description="Oct 2024 - Present"
+          location="Montreal, QC"
+        >
+          <Tool title="ShakePay" href="https://shakepay.com/">
+            <ul className="list-disc pl-5">
+              <li className="mt-2">
+                Building features at Canada&apos;s leading Bitcoin company that empowers users to break free from traditional fiat currency and build long-term wealth through Bitcoin.
+              </li>
+              <li className="mt-2">
+                Drove significant improvements in business customer onboarding within first 3 months on the Growth Squad.
+              </li>
+              <li className="mt-2">
+                Currently spearheading initiatives to accelerate household Bitcoin adoption and make financial sovereignty accessible to all Canadians.
+              </li>
+            </ul>
+          </Tool>
+        </ToolsSection>
+        <ToolsSection
           title="Founder"
           description="Aug 2023 - Present"
           location="Victoria, BC"

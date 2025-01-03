@@ -17,6 +17,7 @@ import logoDrDocAI from '@/images/logos/drdocai.svg'
 import logoApple from '@/images/logos/apple.svg'
 import logoJRO from '@/images/logos/jro.png'
 import logoVIATEC from '@/images/logos/viatec.svg'
+import logoShakePay from '@/images/logos/shakepay.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -176,14 +177,21 @@ function Role({ role }) {
 function Resume() {
   let resume = [
     {
-      company: 'VIATEC',
-      title: 'Special Projects',
-      logo: logoVIATEC,
+      company: 'ShakePay',
+      title: 'Software Engineer',
+      logo: logoShakePay,
       start: '2024',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear().toString(),
       },
+    },
+    {
+      company: 'VIATEC',
+      title: 'Special Projects',
+      logo: logoVIATEC,
+      start: '2024',
+      end: 'Sept 2024',
     },
     {
       company: 'Dr.Doc AI',
