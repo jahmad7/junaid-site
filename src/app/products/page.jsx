@@ -31,6 +31,14 @@ const products = [
     link: '#',
     cta: 'Coming Soon',
   },
+  {
+    name: "Let's Knot",
+    description: 'A platform to help couples plan the perfect elopement trip instead of a traditional wedding. Skip the stress, embrace the adventure.',
+    type: 'Web App',
+    status: 'Live',
+    link: 'https://letsknot.app/',
+    cta: 'Plan Your Elopement',
+  },
 ]
 
 export default function Products() {
@@ -50,6 +58,7 @@ export default function Products() {
                 {product.name === 'R U Playing' && '🎮'}
                 {product.name === 'Black Lotus' && '🌺'}
                 {product.name === 'Unhinged' && '😂'}
+                {product.name === "Let's Knot" && '💍'}
               </span>
             </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
