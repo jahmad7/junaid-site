@@ -19,17 +19,23 @@ export function Footer() {
       <ContainerOuter>
         <div className="border-t border-zinc-100 pb-16 pt-10 dark:border-zinc-700/40">
           <ContainerInner>
-            <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
-              <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
-                <NavLink href="/about">About</NavLink>
-                <NavLink href="/ai">AI Me</NavLink>
-                <NavLink href="/education">Education</NavLink>
-                <NavLink href="/experiences">Experiences</NavLink>
+            <div className="flex flex-col gap-6">
+              <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
+                <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
+                  <NavLink href="/about">About</NavLink>
+                  <NavLink href="/products">Products</NavLink>
+                  <NavLink href="/education">Education</NavLink>
+                  <NavLink href="/experiences">Experiences</NavLink>
+                </div>
+                <p className="text-sm text-zinc-400 dark:text-zinc-500">
+                  &copy; {new Date().getFullYear()} Junaid Ahmad. All rights
+                  reserved.
+                </p>
               </div>
-              <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Junaid Ahmad. All rights
-                reserved.
-              </p>
+              <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 border-t border-zinc-100 pt-6 text-sm text-zinc-600 dark:border-zinc-700/40 dark:text-zinc-400">
+                <NavLink href="/privacy">Privacy Policy</NavLink>
+                <NavLink href="/support">Support</NavLink>
+              </div>
             </div>
           </ContainerInner>
         </div>
