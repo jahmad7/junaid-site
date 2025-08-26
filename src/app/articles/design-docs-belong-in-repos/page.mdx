@@ -1,0 +1,164 @@
+import { ArticleLayout } from '@/components/ArticleLayout'
+
+export const article = {
+  author: 'Junaid Ahmad',
+  date: '2025-08-26',
+  title: 'Design Docs Belong in Repos, Not Notion',
+  description:
+    'Why engineering design documents should live alongside code in repositories rather than in separate documentation platforms, especially in the age of AI-driven development.',
+}
+
+export const metadata = {
+  title: article.title,
+  description: article.description,
+}
+
+export default (props) => <ArticleLayout article={article} {...props} />
+
+In the age of AI-driven development, we're still treating design documents like they're separate from the code they describe. This separation made sense when documentation tools were superior to text files, but today it's actively harmful to productivity. It's time to move engineering design docs from platforms like Notion into our repositories where they belong.
+
+## The Problem with Platform-Based Design Docs
+
+Every engineering team I've worked with has a graveyard of outdated design documents in Notion, Confluence, or Google Docs. These documents were meticulously crafted, reviewed, and approved—then immediately began their slow descent into obsolescence. The moment the first line of code diverged from the plan, the design doc became fiction.
+
+This isn't a failure of discipline; it's a fundamental architectural problem. When documentation lives separately from code, keeping them synchronized requires constant manual effort. In practice, this synchronization never happens because engineers are (rightfully) focused on shipping features, not updating documents in a different system.
+
+## The Repository Advantage
+
+Design documents are living artifacts of the development process. They should evolve with the code, be reviewed with the code, and be versioned with the code. Here's why repositories are the natural home for design docs:
+
+### 1. Single Source of Truth
+
+When a design doc lives in the repository, it becomes part of the feature's history. Need to understand why a feature was built a certain way? The design doc is right there in the same pull request. Want to see how requirements evolved? Check the commit history. The documentation and implementation share the same timeline.
+
+### 2. AI-Native Development
+
+Modern AI coding assistants can read and understand your entire repository context. When your design doc is a markdown file in the repo, AI tools can:
+
+- Reference the design directly when generating code
+- Validate implementation against specifications
+- Update documentation as code changes
+- Answer questions about design decisions without requiring external tool integration
+
+Keeping design docs in Notion requires complex integrations (like MCP) just to give AI tools access to your documentation. Why add this complexity when the repository already provides perfect context?
+
+### 3. Code Review Integration
+
+Design reviews become part of the standard development workflow:
+
+```markdown
+## API Design
+
+The user authentication endpoint will:
+- Accept email and password
+- Return a JWT token with 24-hour expiration
+- Include refresh token for seamless re-authentication
+
+```
+
+Reviewers can comment directly on design decisions in the PR, creating a permanent record of architectural discussions. Compare this to Notion comments that disappear into the ether or require constant context switching.
+
+### 4. Living Documentation
+
+The most powerful aspect of repo-based design docs is that they remain useful throughout the feature's lifecycle:
+
+1. **Pre-implementation**: The design doc is created and reviewed
+2. **Implementation**: AI agents and developers reference it directly
+3. **Review**: PR reviewers validate code against the design
+4. **Post-launch**: When requirements change, the design doc is updated first
+5. **Maintenance**: Future developers understand both what was built and why
+
+This creates a virtuous cycle where documentation stays current because it's actively used, not just referenced.
+
+## The Right Tool for the Right Job
+
+I'm not arguing against Notion entirely. It excels at:
+
+- **Onboarding documentation**: Step-by-step guides that rarely change
+- **Company processes**: HR policies, expense procedures, etc.
+- **Knowledge bases**: Information about tools, systems, and organizational standards
+- **Meeting notes**: Ephemeral information that doesn't need version control
+
+These are "set in stone" documents that benefit from rich formatting and easy sharing. But engineering design docs are different—they're working documents that should live where the work happens.
+
+## Implementation Strategy
+
+Moving to repo-based design docs is straightforward:
+
+### Directory Structure
+```
+/docs
+  /design
+    /features
+      authentication.md
+      payment-processing.md
+      search-optimization.md
+  /architecture
+    system-overview.md
+    database-schema.md
+```
+
+### Design Doc Template
+```markdown
+# Feature: [Name]
+
+## Problem Statement
+[What problem are we solving?]
+
+## Proposed Solution
+[High-level approach]
+
+## Technical Design
+[Detailed implementation plan]
+
+## API Changes
+[Endpoint definitions, contracts]
+
+## Database Changes
+[Schema modifications]
+
+## Testing Strategy
+[How we'll validate this works]
+
+## Rollout Plan
+[Deployment strategy]
+
+## Open Questions
+[Unresolved issues for discussion]
+```
+
+### Workflow
+1. Create design doc as first commit in feature branch
+2. Open PR for design review before implementation
+3. Update design doc as requirements evolve
+4. Reference design doc in code comments for complex logic
+5. Keep design doc updated as part of the PR review process
+
+## The Separation of Concerns Paradox
+
+Engineers understand separation of concerns—it's fundamental to writing maintainable code. But we've misapplied this principle to documentation. Design docs aren't separate from code; they're the specification that code implements. Separating them creates the very coupling problems we try to avoid in our architectures.
+
+Just as we keep tests next to the code they test, we should keep design docs next to the code they describe. The proximity encourages maintenance and reduces cognitive overhead.
+
+## Embracing Change
+
+The biggest objection to repo-based design docs is usually about change management: "What if requirements change mid-development?" This question reveals the core advantage of the approach. When requirements change:
+
+1. Update the design doc first
+2. Review the changes in a PR
+3. Update the implementation to match
+4. Both documentation and code reflect reality
+
+With Notion-based docs, changes often bypass documentation entirely, leading to the familiar situation where documentation says one thing and code does another.
+
+## Conclusion
+
+In an era where AI can read our repositories and help us code, where pull requests are our primary collaboration tool, and where continuous deployment means constant change, keeping design documents in separate platforms is an anachronism.
+
+Design docs in repositories aren't just about better organization—they're about acknowledging that documentation and code are two sides of the same coin. By keeping them together, we create a development environment where documentation stays current, AI tools have full context, and future developers can understand not just what we built, but why we built it that way.
+
+The next time you start a new feature, try creating the design doc as a markdown file in your repository. Open a PR for the design review. Let the documentation evolve with your code. You might find that the "living document" you've always wanted was just a `git add` away.
+
+---
+
+*Note: This approach works best for feature-level design docs. System-wide architecture decisions might benefit from [Architecture Decision Records (ADRs)](https://adr.github.io/), which also belong in repositories but follow a different format optimized for capturing point-in-time decisions.*
